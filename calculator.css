@@ -1,0 +1,57 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+    padding: 38%;
+    padding-top: 10%;
+    /* background-color: #00DBDE; */
+/* background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
+/* background-image: url("pe.jpg"); */
+background-image: url(https://source.unsplash.com/featured/?ocean,underwater);
+background-size: cover;
+}
+nav{
+    font-style: inherit;
+    font-size: 60px;
+}
+
+
+.display {
+    /* background-color: rgb(63, 25, 199); */
+    padding:15px;
+    width: 250px;
+    text-align: right;
+    font-size: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    /* background-image: url("pexels-oliver-sjöström-931018.jpg"); */
+    background-image: url("maldives-1993704_1280.webp");
+    /* background-image: url("pe.jpg"); */
+    background-size: cover;
+}
+#output {
+    color: azure;
+}
+
+button {
+    padding: 10px;
+    width: 67px;
+    height: 45px;
+    margin-top: 10px;
+    /* background-color: rgb(21, 175, 196); */
+    /* background-image: url("pe.jpg"); */
+    background-image: url("maldives-1993704_1280.webp");
+    /* background-image: url("pexels-oliver-sjöström-931018.jpg"); */
+    background-size: cover;
+    color: rgb(14, 26, 201);
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(211, 19, 169);
+   }
+   button:active {
+    background-color: rgb(136, 136, 136);
+   }

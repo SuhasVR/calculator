@@ -1,0 +1,26 @@
+@media only screen and (max-width:360px){
+    body{
+        padding: 8%;
+    }
+}
+
+@media only screen and (max-width:320px){
+    body{
+        padding: 0%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    body{
+        padding: 30px;
+        /* margin: 20%; */
+    }
+}
+
+@media only screen and (max-width:1024px){
+    body{
+        padding: 25px;
+        
+        
+    }
+}
